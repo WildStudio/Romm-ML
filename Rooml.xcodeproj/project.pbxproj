@@ -12,6 +12,7 @@
 		3891B6DE21C2438C00D88068 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3891B6DC21C2438C00D88068 /* Main.storyboard */; };
 		3891B6E021C2439200D88068 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3891B6DF21C2439200D88068 /* Assets.xcassets */; };
 		3891B6E321C2439200D88068 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3891B6E121C2439200D88068 /* LaunchScreen.storyboard */; };
+		3891B6EB21C2440000D88068 /* ImageClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3891B6EA21C2440000D88068 /* ImageClassifier.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		3891B6DF21C2439200D88068 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3891B6E221C2439200D88068 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3891B6E421C2439200D88068 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3891B6EA21C2440000D88068 /* ImageClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ImageClassifier.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				3891B6D821C2438C00D88068 /* AppDelegate.swift */,
 				3891B6DA21C2438C00D88068 /* ViewController.swift */,
+				3891B6EA21C2440000D88068 /* ImageClassifier.mlmodel */,
 				3891B6DC21C2438C00D88068 /* Main.storyboard */,
 				3891B6DF21C2439200D88068 /* Assets.xcassets */,
 				3891B6E121C2439200D88068 /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3891B6DB21C2438C00D88068 /* ViewController.swift in Sources */,
+				3891B6EB21C2440000D88068 /* ImageClassifier.mlmodel in Sources */,
 				3891B6D921C2438C00D88068 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +289,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PL4DM2BH2S;
 				INFOPLIST_FILE = Rooml/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +308,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PL4DM2BH2S;
 				INFOPLIST_FILE = Rooml/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
