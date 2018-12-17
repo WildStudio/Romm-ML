@@ -65,7 +65,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         // Show the image in the UI.
         imageView.image = uiImage
 
-        // Run the rectangle detector, which upon completion runs the ML classifier.
+        // Run the ML classifier.
         let handler = VNImageRequestHandler(ciImage: ciImage, orientation:orientation)
         DispatchQueue.global(qos: .userInteractive).async {
             do {
